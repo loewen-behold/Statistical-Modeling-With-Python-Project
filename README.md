@@ -1,22 +1,6 @@
 # Final-Project-Statistical-Modelling-with-Python
 
 ## Project/Goals
-<<<<<<< HEAD
-(fill in your description and goals here)
-
-## Process
-### (your step 1)
-### (your step 2)
-
-## Results
-(fill in what you found about the comparative quality of API coverage in your chosen area and the results of your model.)
-
-## Challenges 
-(discuss challenges you faced in the project)
-
-## Future Goals
-(what would you do if you had more time?)
-=======
 I'd like to successfully build a linear regression model for the number of bikes at a given bike station in Toronto based off the information I can find for all the POIs within a 1 km radius of the bike station.  
 
 ## Process
@@ -64,4 +48,3 @@ I'd like to successfully build a linear regression model for the number of bikes
 ## Future Goals
 - I would engineer some more station-centric variables to try and build a better model.
 - I would like to get WAY MORE different snapshots of the bike stations to really get a sense of the activity at each station and how that relates to the POIs around it.  I feel like with just one snapshot of the stations, depending on when you made your API, you might have a different number of bikes available, and therefore, a different model.
->>>>>>> 92154ef (Initial commit)
