@@ -4,11 +4,11 @@
 I'd like to successfully build a linear regression model for the number of bikes at a given bike station in Toronto based off the information I can find for all the POIs within a 1 km radius of the bike station.  
 
 ## Process
-### Successfully call, and parse through the various APIs required to complete this project
-### Create a CitiBikes, Foursquare, and Yelp DataFrames from the API results.
-### Merge these DataFrames together into one
-### Perform EDA on the data, deal with erroneous or missing data, find connections between the variables
-### Create a linear regression model and be able to analyze the results of model
+#### - Successfully call, and parse through the various APIs required to complete this project
+#### - Create a CitiBikes, Foursquare, and Yelp DataFrames from the API results.
+#### - Merge these DataFrames together into one
+#### - Perform EDA on the data, deal with erroneous or missing data, find connections between the variables
+#### - Create a linear regression model and be able to analyze the results of model
 
 ## Results
 ### Comparing APIs:
