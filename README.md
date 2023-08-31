@@ -15,7 +15,7 @@ I'd like to successfully build a linear regression model for the number of bikes
 - Both the Yelp and Foursquare APIs returned similar information, although this information is laid out slightly different in their JSON returns.  I did find that the Yelp API was better at filtering results based on category, but it did have some attributes that were only available if you are a paid member.  This was not an issue since I didn't end up using these POI attributes. 
 - What was quite satisfying to me was that when I finally determined the list of the top 10 restuarants, there was one on the list that I have been to multiple times because of how much I enjoyed it.  I was glad to see it made the list, because I would have put it there myself ;)
 
-<img src="../images/top_ten_restaurants.png" alt="Top 10 Restaraunts" width="700" height="500">
+<img src="images/top_ten_restaurants.png" alt="Top 10 Restaraunts" width="700" height="500">
 
 ### Joining the Data and EDA:
 - I ended up joining the data "horiztonally" because I figured that there must be some overlap between the POIs returned from Foursquare and Yelp for a single bike station.  So I wanted to make sure that I had all of the information for each POI per station to have all it's information in one row.  Unfortunately, there were not as many overlaps as I had expected.  In fact, there might have only been 4000 matched returns between Foursquare and Yelp.  That was a surprise to me since I had removed all categorical filters from the FS and Yelp API calls.  
@@ -32,11 +32,11 @@ I'd like to successfully build a linear regression model for the number of bikes
 - Once I was complete, the only variables I had left were the engineered variables.
 - My final R-squared value was 0.626 --> This was a little less than the last, but I felt better about the variables that had been included in the model.
 
-<img src="../images/final_regression_results.png" alt="Final Regression Results" width="700" height="500">
+<img src="images/final_regression_results.png" alt="Final Regression Results" width="700" height="500">
 
 - This was my final equation:
 
-<img src="../images/final_equation.png" alt="Final Equation" width="900" height="300">
+<img src="images/final_equation.png" alt="Final Equation" width="900" height="300">
 
 
 ## Challenges 
